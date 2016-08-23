@@ -3,8 +3,8 @@ Configuration for Windows (only):
 1) Install WAMP server
 
 2) Change httpd.conf for the apache server to include:
+
 	AddHandler cgi-script .cgi .py
-	
 	Options Indexes FollowSymLinks ExecCGI
 	
 3) Place the python script in /cgi-bin/ directory 
