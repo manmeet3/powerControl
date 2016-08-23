@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body>
+<form method="POST" action="./cgi-bin/powerControl.py">
+    Action: <select name="action">
+	<option value="shutdown">shutdown</option>
+    <option value="sleep">sleep</option>
+    <option value="hibernate">hibernate</option>
+  </select>
+  
+		<p>Time: <input type="text" name="time">
+    <p>Run: <input type="submit" value="Go">
+    <input type="hidden" name="session" value="1f9a2">
+</form>
+</body>
+</html>
